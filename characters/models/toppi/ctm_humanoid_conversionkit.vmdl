@@ -2089,12 +2089,12 @@
 					{
 						_class = "Folder"
 						name = "sample_models"
+						note = "Disable this folder when you add your own model"
 						children = 
 						[
 							{
 								_class = "RenderMeshFile"
 								name = "l4d2_zoey"
-								note = "Imported from Left4Dead2. This is a sample only. Disable this!"
 								children = 
 								[
 									{
@@ -2118,7 +2118,6 @@
 							{
 								_class = "RenderMeshFile"
 								name = "hl2_femalecitizen1"
-								note = "Imported from Half Life 2. This is a sample only. Disable this!"
 								children = 
 								[
 									{
@@ -2143,7 +2142,6 @@
 							{
 								_class = "RenderMeshFile"
 								name = "cs2_sas"
-								note = "Imported from the original prefab. This is a sample only. Disable this!"
 								children = 
 								[
 									{
@@ -6642,7 +6640,7 @@
 			},
 			{
 				_class = "Skeleton"
-				note = "Edited to disable default twistbones and other corrective bones such as pect, scap etc.  Deleted jiggle bones from the SAS model, aside from Jiggle primary."
+				note = "Edited to disable default twistbones and other corrective bones such as pect, scap etc.  Deleted jiggle bones from the SAS model, aside from Jiggle primary.  Enable them if its causing problems"
 				children = 
 				[
 					{
@@ -8134,7 +8132,7 @@
 						lod_count = 4
 						material_group_count = 16
 						body_group_count = 32
-						bone_count = 256
+						bone_count = 358
 					},
 				]
 			},
