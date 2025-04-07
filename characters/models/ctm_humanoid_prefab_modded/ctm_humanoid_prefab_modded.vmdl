@@ -2044,7 +2044,6 @@
 								]
 							},
 						]
-						disabled = true
 					},
 					{
 						_class = "Folder"
@@ -2250,21 +2249,21 @@
 										_class = "ForceRealignBone"
 										target_bone = "bip01_l_finger0"
 										position = [ 0.0, 0.0, 0.0 ]
-										angle = [ 0.0, 0.0, 180.0 ]
+										angle = [ 0.0, 0.0, 0.0 ]
 										affect_animation = true
 									},
 									{
 										_class = "ForceRealignBone"
 										target_bone = "bip01_l_finger01"
 										position = [ 0.0, 0.0, 0.0 ]
-										angle = [ 0.0, 0.0, 180.0 ]
+										angle = [ 0.0, 0.0, 0.0 ]
 										affect_animation = true
 									},
 									{
 										_class = "ForceRealignBone"
 										target_bone = "bip01_l_finger02"
 										position = [ 0.0, 0.0, 0.0 ]
-										angle = [ 0.0, 0.0, 180.0 ]
+										angle = [ 0.0, 0.0, 0.0 ]
 										affect_animation = true
 									},
 									{
@@ -2362,21 +2361,21 @@
 										_class = "ForceRealignBone"
 										target_bone = "bip01_r_finger0"
 										position = [ 0.0, 0.0, 0.0 ]
-										angle = [ 180.0, 0.0, 0.0 ]
+										angle = [ 180.0, 0.0, 180.0 ]
 										affect_animation = true
 									},
 									{
 										_class = "ForceRealignBone"
 										target_bone = "bip01_r_finger01"
 										position = [ 0.0, 0.0, 0.0 ]
-										angle = [ 180.0, 0.0, 0.0 ]
+										angle = [ 180.0, 0.0, 180.0 ]
 										affect_animation = true
 									},
 									{
 										_class = "ForceRealignBone"
 										target_bone = "bip01_r_finger02"
 										position = [ 0.0, 0.0, 0.0 ]
-										angle = [ 180.0, 0.0, 0.0 ]
+										angle = [ 180.0, 0.0, 180.0 ]
 										affect_animation = true
 									},
 									{
@@ -2466,6 +2465,7 @@
 								]
 							},
 						]
+						disabled = true
 					},
 					{
 						_class = "Folder"
@@ -2537,7 +2537,7 @@
 							},
 							{
 								_class = "RenderMeshFile"
-								name = "import_hl2_female_citizen_1"
+								name = "import_hl2_alyx"
 								children = 
 								[
 									{
@@ -2547,7 +2547,8 @@
 										single_override_material = "materials/cbble/dev/white_1.vmat"
 									},
 								]
-								filename = "characters/models/ctm_humanoid_prefab_modded/import_hl2_female_citizen_1.smd"
+								disabled = true
+								filename = "characters/models/ctm_humanoid_prefab_modded/import_hl2_alyx.smd"
 								import_scale = 1.0
 								import_filter = 
 								{
@@ -2567,7 +2568,6 @@
 										single_override_material = "materials/cbble/dev/white_1.vmat"
 									},
 								]
-								disabled = true
 								filename = "characters/models/ctm_humanoid_prefab_modded/import_survivor_zoey.smd"
 								import_scale = 1.0
 								import_filter = 
