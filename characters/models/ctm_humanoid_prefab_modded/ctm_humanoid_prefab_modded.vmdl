@@ -1779,7 +1779,7 @@
 										_class = "ForceRealignBone"
 										target_bone = "bip01_l_toe0"
 										position = [ 0.0, 0.0, 0.0 ]
-										angle = [ 0.0, 0.0, 180.0 ]
+										angle = [ 0.0, -10.0, 180.0 ]
 										affect_animation = true
 									},
 								]
@@ -1814,7 +1814,7 @@
 										_class = "ForceRealignBone"
 										target_bone = "bip01_r_toe0"
 										position = [ 0.0, 0.0, 0.0 ]
-										angle = [ 180.0, 0.0, 0.0 ]
+										angle = [ 180.0, -10.0, -10.0 ]
 										affect_animation = true
 									},
 								]
