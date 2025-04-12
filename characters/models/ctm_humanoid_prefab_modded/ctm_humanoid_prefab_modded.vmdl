@@ -2044,6 +2044,7 @@
 								]
 							},
 						]
+						disabled = true
 					},
 					{
 						_class = "Folder"
@@ -2465,7 +2466,6 @@
 								]
 							},
 						]
-						disabled = true
 					},
 					{
 						_class = "Folder"
@@ -2547,7 +2547,6 @@
 										single_override_material = "materials/cbble/dev/white_1.vmat"
 									},
 								]
-								disabled = true
 								filename = "characters/models/ctm_humanoid_prefab_modded/import_hl2_alyx.smd"
 								import_scale = 1.0
 								import_filter = 
@@ -2568,6 +2567,7 @@
 										single_override_material = "materials/cbble/dev/white_1.vmat"
 									},
 								]
+								disabled = true
 								filename = "characters/models/ctm_humanoid_prefab_modded/import_survivor_zoey.smd"
 								import_scale = 1.0
 								import_filter = 
@@ -4767,7 +4767,7 @@
 														[
 															{
 																_class = "AnimConstraintBoneInput"
-																parent_bone = "finger_middle_meta_R"
+																parent_bone = "finger_ring_meta_r"
 																relative_origin = [ 0.0, 0.0, 0.0 ]
 																relative_angles = [ 0.0, 0.0, 0.0 ]
 																weight = 1.0
@@ -5399,6 +5399,7 @@
 																weight = 1.0
 															},
 														]
+														disabled = true
 													},
 													{
 														_class = "AnimConstraintOrient"
@@ -5419,6 +5420,7 @@
 																weight = 1.0
 															},
 														]
+														disabled = true
 													},
 													{
 														_class = "AnimConstraintPoint"
@@ -5566,6 +5568,7 @@
 																weight = 1.0
 															},
 														]
+														disabled = true
 													},
 													{
 														_class = "AnimConstraintOrient"
@@ -5586,6 +5589,7 @@
 																weight = 1.0
 															},
 														]
+														disabled = true
 													},
 													{
 														_class = "AnimConstraintPoint"
@@ -5733,6 +5737,7 @@
 																weight = 1.0
 															},
 														]
+														disabled = true
 													},
 													{
 														_class = "AnimConstraintOrient"
@@ -5740,7 +5745,7 @@
 														[
 															{
 																_class = "AnimConstraintBoneInput"
-																parent_bone = "finger_middle_meta_l"
+																parent_bone = "finger_ring_meta_l"
 																relative_origin = [ 0.0, 0.0, 0.0 ]
 																relative_angles = [ 0.0, 0.0, 0.0 ]
 																weight = 1.0
@@ -5753,6 +5758,7 @@
 																weight = 1.0
 															},
 														]
+														disabled = true
 													},
 													{
 														_class = "AnimConstraintPoint"
@@ -5900,6 +5906,7 @@
 																weight = 1.0
 															},
 														]
+														disabled = true
 													},
 													{
 														_class = "AnimConstraintOrient"
@@ -5920,6 +5927,7 @@
 																weight = 1.0
 															},
 														]
+														disabled = true
 													},
 													{
 														_class = "AnimConstraintPoint"
